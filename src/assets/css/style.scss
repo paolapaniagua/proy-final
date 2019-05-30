@@ -1,0 +1,71 @@
+.app-container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  background-color: white;
+}
+
+.article{
+    padding: .7rem;
+}
+
+.header{
+    background-color: #fafafa;
+    border-bottom: 2px solid #cfcdcd;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+
+    .header__logo {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    }
+
+    h1{
+        color: #ff7e1a;
+        font-size: 1rem;
+        margin: 0;
+        float: right;
+    }
+    
+    img{
+        height: 40px;
+        width: 40px;
+    }
+}
+ 
+body {
+    background-color: #e6e6e6;
+    font-family: Source Sans Pro,sans-serif;
+    color: #2d2d2d;
+}
+
+section {
+    display: block;
+}
+.article__conteiner{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+
+
+.article-details{
+    width: 10%;
+    padding: .7rem;
+
+    .img-recetas{
+        width: 100%;
+        height: 150px;
+    }
+    .img-chef{
+        border-radius: 100%;
+        height: 40px;
+        width:40px;
+    }
+}
+}
